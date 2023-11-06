@@ -92,8 +92,6 @@ private val DarkColorScheme = darkColorScheme(
 @Composable
 fun TipTimeTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
-    // Dynamic color is available on Android 12+
-    // Dynamic color in this app is turned off for learning purposes
     dynamicColor: Boolean = false,
     content: @Composable () -> Unit
 ) {
